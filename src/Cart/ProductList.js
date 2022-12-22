@@ -77,7 +77,6 @@ export const ProductList = () => {
                         key={key}
                         index={key}
                         product={post}
-                        setCount={{ count: count }}
                       />
                     </Card>
                   </Box>
