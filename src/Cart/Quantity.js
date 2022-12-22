@@ -32,7 +32,7 @@ export function Quantity({ item, index }) {
     };
     let newarry = [];
     newarry = updateArray;
-    dispatch(markTodoAction(newarry));
+    dispatch(changeQunatityAction(newarry));
     setCount(newQuantity);
   };
   return (
